@@ -246,7 +246,7 @@
 //  ======= Swiper slider 
 var parallaxSlider;
 var parallaxSliderOptions = {
-    speed: 2000
+    speed: 3000
     , autoplay: true
     , parallax: true
     , loop: true
