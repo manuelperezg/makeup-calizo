@@ -246,9 +246,9 @@
 //  ======= Swiper slider 
 var parallaxSlider;
 var parallaxSliderOptions = {
-    speed: 3000
+    speed: 2500
     , autoplay: true
-    , parallax: true
+    , parallax: false
     , loop: true
     , pagination: {
         el: '.slider .parallax-slider .swiper-pagination'

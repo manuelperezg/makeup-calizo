@@ -25,8 +25,32 @@
 -------------------------------------------------------------------*/
 
 /* ======= Fonts settings (use Google Font) ======= */
-@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&amp;family=Long+Cang&amp;family=Teko:wght@300;400;500;600;700&amp;display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&amp;family=Long+Cang&amp;family=Teko:wght@300;400;500;600;700&amp;display=swap"); */
 
+@font-face {
+    font-family: 'Louis George Cafe';
+    src: url('../fonts/font-news/LouisGeorgeCafe.eot');
+    src: url('../fonts/font-news/Louis-George-Cafe.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font-news/LouisGeorgeCafe.woff2') format('woff2'),
+        url('../fonts/font-news/LouisGeorgeCafe.woff') format('woff'),
+        url('../fonts/font-news/LouisGeorgeCafe.svg#LouisGeorgeCafe') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/font-news/FuturaBT-Medium.eot');
+    src: url('../fonts/font-news/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font-news/FuturaBT-Medium.woff2') format('woff2'),
+        url('../fonts/font-news/FuturaBT-Medium.woff') format('woff'),
+        url('../fonts/font-news/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+  
 /* ======= Default styles ======= */
 
 html,
@@ -38,7 +62,8 @@ body {
 }
 
 body {
-    font-family: "Didact Gothic", sans-serif;
+    /* font-family: "Didact Gothic", sans-serif; */
+    font-family: 'Louis George Cafe'; 
     color: #acacac;
     font-size: 15px;
     line-height: 1.75em;
@@ -52,7 +77,9 @@ h1 {
     font-size: 60px;
     line-height: 1em;
     font-weight: 400;
-    font-family: "Teko", sans-serif;
+    /* font-family: "Teko", sans-serif; */
+    /* font-family: 'Louis George Cafe';  */
+    font-family: 'FUTURA'; 
     color: #fff;
 }
 h2 {
@@ -65,12 +92,14 @@ h5,
 h6 {
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Teko", sans-serif;
+    /* font-family: "Teko", sans-serif; */
+    font-family: 'Futura' !important; 
     color: #fff;
     margin-bottom: 15px;
 }
 p {
     font-family: "Didact Gothic", sans-serif;
+    
     font-size: 15px;
     line-height: 1.75em;
     margin: 0 0 15px;
@@ -526,7 +555,7 @@ td {
 }
 .navbar-brand img {
     height: auto;
-    max-width: 150px;
+    max-width: 200px;
     display: block;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
@@ -594,7 +623,9 @@ td {
 .navbar-light .navbar-nav .nav-link {
     font-size: 18px;
     font-weight: 600;
-    font-family: "Teko", sans-serif;
+    /* font-family: "Teko", sans-serif; */
+    /* font-family: 'Louis George Cafe';  */
+    font-family: 'Futura'; 
     color: #fff;
 }
 
@@ -656,6 +687,7 @@ td {
     font-size: 25px;
     font-weight: 300;
     font-family: "Teko", sans-serif;
+
     color: #fff;
     background-color: #101010;
     border: none;
