@@ -291,7 +291,8 @@ td {
     line-height: 1.5em;
     color: #c31f82;
     font-weight: 400;
-    font-family: "Long Cang", cursive;
+    /* font-family: "Long Cang", cursive; */
+    font-family: "FUTURA";
 }
 .banner-padding {
     height: 50vh;
@@ -993,7 +994,8 @@ td {
 .team .titem span {
     font-size: 20px;
     color: #acacac;
-    font-family: "Long Cang", cursive;
+    /* font-family: "Long Cang", cursive; */
+    font-family: "FUTURA";
     word-spacing: -4px;
 }
 
