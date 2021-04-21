@@ -2070,6 +2070,30 @@ footer .sub-footer p a:hover {
     }
 }
 @media all and (max-width: 575px) {
+    .module-cart .cart-icon {
+        margin-left: 26px !important;
+    }
+    .module-cart .cart-label {
+        right: 0 !important;
+        top: -2px !important;
+        left: 12px !important;
+    }
+
+    .module-cart .cart-box {
+        right: -26px !important;
+    }
+
+    .items .item {
+        width: 100% !important;
+    }
+    .mini-menu,
+    .menu-item {
+        width: 100% !important;
+    }
+    .title-section {
+        font-size: 50px !important;
+        line-height: 1.2 !important;
+    }
     .subscribe-form {
         width: 100%;
     }
@@ -2150,7 +2174,7 @@ footer .sub-footer p a:hover {
     margin: 5px;
     /* display: inline-block; */
 }
-.item {
+.items .item {
     padding: 10px;
     vertical-align: top;
     width: 220px;
@@ -2267,7 +2291,7 @@ footer .sub-footer p a:hover {
     line-height: 12px;
 }
 
-@media screen and (max-width: 940px) {
+/* @media screen and (max-width: 940px) {
     .items {
         width: 420px;
     }
@@ -2288,7 +2312,7 @@ footer .sub-footer p a:hover {
     .loadmore {
         width: 220px;
     }
-}
+} */
 
 .ui-slider .ui-slider-handle {
     position: absolute;
@@ -2307,7 +2331,8 @@ footer .sub-footer p a:hover {
 .btn-producto a {
     color: #fff;
 }
-.btn-producto:hover, .paid:hover {
+.btn-producto:hover,
+.paid:hover {
     background: #7b388e;
     color: #fff;
 }
