@@ -28,24 +28,24 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&amp;family=Long+Cang&amp;family=Teko:wght@300;400;500;600;700&amp;display=swap"); */
 
 @font-face {
-    font-family: 'Louis George Cafe';
-    src: url('../fonts/font-news/LouisGeorgeCafe.eot');
-    src: url('../fonts/font-news/Louis-George-Cafe.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/font-news/LouisGeorgeCafe.woff2') format('woff2'),
-    url('../fonts/font-news/LouisGeorgeCafe.woff') format('woff'),
-    url('../fonts/font-news/LouisGeorgeCafe.svg#LouisGeorgeCafe') format('svg');
+    font-family: "Louis George Cafe";
+    src: url("../fonts/font-news/LouisGeorgeCafe.eot");
+    src: url("../fonts/font-news/Louis-George-Cafe.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/font-news/LouisGeorgeCafe.woff2") format("woff2"),
+        url("../fonts/font-news/LouisGeorgeCafe.woff") format("woff"),
+        url("../fonts/font-news/LouisGeorgeCafe.svg#LouisGeorgeCafe") format("svg");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Futura';
-    src: url('../fonts/font-news/FuturaBT-Medium.eot');
-    src: url('../fonts/font-news/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/font-news/FuturaBT-Medium.woff2') format('woff2'),
-    url('../fonts/font-news/FuturaBT-Medium.woff') format('woff'),
-    url('../fonts/font-news/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+    font-family: "Futura";
+    src: url("../fonts/font-news/FuturaBT-Medium.eot");
+    src: url("../fonts/font-news/FuturaBT-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/font-news/FuturaBT-Medium.woff2") format("woff2"),
+        url("../fonts/font-news/FuturaBT-Medium.woff") format("woff"),
+        url("../fonts/font-news/FuturaBT-Medium.svg#FuturaBT-Medium") format("svg");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -63,7 +63,7 @@ body {
 
 body {
     /* font-family: "Didact Gothic", sans-serif; */
-    font-family: 'Louis George Cafe'; 
+    font-family: "Louis George Cafe";
     color: #acacac;
     font-size: 15px;
     line-height: 1.75em;
@@ -79,7 +79,7 @@ h1 {
     font-weight: 400;
     /* font-family: "Teko", sans-serif; */
     /* font-family: 'Louis George Cafe';  */
-    font-family: 'FUTURA'; 
+    font-family: "FUTURA";
     color: #fff;
 }
 h2 {
@@ -93,13 +93,13 @@ h6 {
     line-height: 1.5em;
     font-weight: 400;
     /* font-family: "Teko", sans-serif; */
-    font-family: 'Futura' !important; 
+    font-family: "Futura" !important;
     color: #fff;
     margin-bottom: 15px;
 }
 p {
     font-family: "Didact Gothic", sans-serif;
-    
+
     font-size: 15px;
     line-height: 1.75em;
     margin: 0 0 15px;
@@ -294,12 +294,13 @@ td {
     font-family: "Long Cang", cursive;
 }
 .banner-padding {
-    height: 70vh;
+    height: 50vh;
     background-position: center center;
 }
 
 .banner-padding h1 {
-    color: #c31f82;
+    text-align: center;
+    color: #fff;
     font-size: 80px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -537,7 +538,7 @@ td {
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
 }
 .fredia-start-header.scroll-on .navbar-brand img {
-    height: 50px;
+    height: 70px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -625,7 +626,7 @@ td {
     font-weight: 600;
     /* font-family: "Teko", sans-serif; */
     /* font-family: 'Louis George Cafe';  */
-    font-family: 'Futura'; 
+    font-family: "Futura";
     color: #fff;
 }
 
@@ -914,19 +915,17 @@ td {
     }
 }
 
-
 #img-back {
-    background: url('../images/cha-02.jpg');
+    background: url("../images/cha-02.jpg");
     background-position: bottom; /* Center the image */
     background-repeat: repeat; /* Do not repeat the image */
-    background-size: cover; 
+    background-size: cover;
 }
 #img-back-products {
-     background: url('../images/cha-01.jpg');
+    background: url("../images/cha-01.jpg");
     background-position: bottom; /* Center the image */
     background-repeat: repeat; /* Do not repeat the image */
-    background-size: cover; 
-
+    background-size: cover;
 }
 /* ======= About style ======= */
 .fredia-about-img img:hover {
@@ -2079,4 +2078,265 @@ footer .sub-footer p a:hover {
     .coment-form .form-group .col-sm-4:last-child {
         margin: 0;
     }
+}
+/* start here */
+/*Menu !!!!*/
+.menu {
+   
+    margin: 10px ;
+    
+}
+.menu-item {
+    background-color: #FEFEFE;
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow:0 0 8px rgba(0, 0, 0, 0.06);
+}
+
+.header-item {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3C3D41  ;
+    font-size: 11px;
+    padding: 15px 15px;
+    border-bottom: 1.5px solid #EAEAEA;
+}
+
+.color-row1,  .color-row2  {
+    margin: 15px;
+    padding:0;
+    max-width: 220px;
+}
+
+.color-circle {
+    max-width: 220px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px;
+    
+}
+
+.size-circle {
+    background-color: #EBEBEB;
+
+}
+
+.sizedouble {
+ 
+   margin: 5px 5px;
+
+}
+.size {
+     margin: 6px 8px;
+}
+
+/*ITEMS!!!*/
+
+
+.img-item{
+    /* width: 220px;
+    height: 200px; */
+    margin-top: 30px;
+    /* vertical-align: top; */
+    /* position: relative; */
+    /* left: 0px; */
+}
+
+.items {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 20px 30px;   
+   margin: 5px;
+    /* display: inline-block; */
+}
+.item {
+    padding: 10px;
+    vertical-align: top;
+    width: 220px;
+    height: auto;
+    margin: 8px;
+    background: #fefefe;
+    display: inline-block;
+    border-radius: 3px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+}
+
+.item h3 {
+    text-align: center;
+    margin: 10px 5px 10px 5px;
+    font-size: 1em;
+    color: #000;
+    font-size: 24px;
+}
+
+.item h5 {
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+}
+
+.descripcion {
+    margin: 0;
+    text-align: center;
+    font-size: 11px;
+    font-style: italic;
+    color: grey;
+    font-family: sans-serif;
+}
+
+
+/*BTN*/
+.loadmore {
+    height: 30px;
+    width: 610px;
+    margin-top: 25px;
+    position: relative;
+    left: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #B8C6C7;
+    color: #FEFEFE;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mini-menu{
+    width: 200px;
+    border-radius: 3px;
+    box-shadow:0 0 8px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #848C8F ;
+    font-size: 11px;
+    margin: 10px;
+}
+.mini-menu ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    text-align:left;
+}
+.mini-menu > ul > li {
+    position: relative;
+}
+.mini-menu > ul > li > a {
+    display: block;	
+    outline: 0;	
+    padding: 1.2em 1em;	
+    text-decoration: none;	
+    color:#000;	
+    font-weight: bold;
+    letter-spacing: 2px;	
+    background: #FEFEFE;
+    border-bottom: 1.5px solid #EAEAEA;
+   
+}
+
+.mini-menu .sub > ul {
+    height: 0;
+    overflow: hidden;
+    background: #7b388e;
+}
+.mini-menu .sub > ul > li > a {
+    font-family:  sans-serif;
+    color:#FEFEFE;
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+    padding: .7em 1em;
+    text-transform: capitalize;
+    font-style: normal; 
+    letter-spacing: 1px;
+}
+/*.mini-menu .sub > ul > li > a:hover,*/
+.mini-menu .sub > a.active,{
+    padding-left: 1.3em;
+    color: blue;
+    content: "1";
+    float: right;
+    margin-right:6px;
+    line-height: 12px;
+}
+.mini-menu .sub >  a:after{
+    content: "»";
+    float: right;
+    margin-right:6px;
+    line-height: 12px;
+}
+
+@media screen and (max-width: 940px) {
+    .items {width: 420px;}
+    .wrap {width: 700px;}
+    .loadmore{width: 420px;}
+   }
+   @media screen and (max-width: 720px) {
+    .items {width: 220px;}
+    .wrap {width: 500px;}
+    .loadmore{width: 220px;}
+   }
+   
+
+   .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 0.9em;
+    height: 1.6em;
+    cursor: default;
+    outline: none;
+    border: 1px solid rgb(207, 207, 207);
+    background: #090;
+    border-image: initial;
+}
+.btn-producto {
+    width: 100px;
+}
+.btn-producto a{
+    color: #fff;
+}
+.btn-producto:hover{
+   background: #7b388e;
+}
+
+.modal-header {
+    border-bottom: none !important
+}
+
+.details-modal {
+    color: #000;
+}
+.btn-add {
+    font-size: 14px;
+padding: 0.25em 1.125em;
+min-height: 44px;
+-moz-box-pack: center;
+justify-content: center;
+-moz-box-align: center;
+align-items: center;
+line-height: 1;
+border-style: solid;
+border-width: 2px;
+border-color: transparent;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+font-weight: 700;
+outline: currentcolor none 0px;
+box-sizing: border-box;
+border-radius: 99999px;
+appearance: none;
+color: rgb(255, 255, 255);
+transition: background-color 0.2s ease 0s;
+background-color: rgb(207, 17, 44);
+display: flex;
+width: 100%;
+min-width: 10.47em;
 }
