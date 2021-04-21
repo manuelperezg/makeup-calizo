@@ -105,23 +105,16 @@
     
     // Team owlCarousel
     $('.team .owl-carousel').owlCarousel({
-        loop: true,
-        margin: 30,
-        mouseDrag: false,
-        autoplay: false,
-        smartSpeed: 500,
-        responsiveClass: true,
-        responsive:{
-            0:{
-                items:1
-            },
-            700:{
-                items:2
-            },
-            1000:{
-                items:4
-            }
+        center: true,
+    items:2,
+    loop:false,
+    margin:10,
+    responsive:{
+        600:{
+            items:1
         }
+    }
+        
     });
     
     // Awards owlCarousel

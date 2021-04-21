@@ -31,9 +31,9 @@
     font-family: 'Louis George Cafe';
     src: url('../fonts/font-news/LouisGeorgeCafe.eot');
     src: url('../fonts/font-news/Louis-George-Cafe.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/font-news/LouisGeorgeCafe.woff2') format('woff2'),
-        url('../fonts/font-news/LouisGeorgeCafe.woff') format('woff'),
-        url('../fonts/font-news/LouisGeorgeCafe.svg#LouisGeorgeCafe') format('svg');
+    url('../fonts/font-news/LouisGeorgeCafe.woff2') format('woff2'),
+    url('../fonts/font-news/LouisGeorgeCafe.woff') format('woff'),
+    url('../fonts/font-news/LouisGeorgeCafe.svg#LouisGeorgeCafe') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -43,14 +43,14 @@
     font-family: 'Futura';
     src: url('../fonts/font-news/FuturaBT-Medium.eot');
     src: url('../fonts/font-news/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/font-news/FuturaBT-Medium.woff2') format('woff2'),
-        url('../fonts/font-news/FuturaBT-Medium.woff') format('woff'),
-        url('../fonts/font-news/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+    url('../fonts/font-news/FuturaBT-Medium.woff2') format('woff2'),
+    url('../fonts/font-news/FuturaBT-Medium.woff') format('woff'),
+    url('../fonts/font-news/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
-  
+
 /* ======= Default styles ======= */
 
 html,
@@ -914,6 +914,20 @@ td {
     }
 }
 
+
+#img-back {
+    background: url('../images/cha-02.jpg');
+    background-position: bottom; /* Center the image */
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+#img-back-products {
+     background: url('../images/cha-01.jpg');
+    background-position: bottom; /* Center the image */
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: cover; 
+
+}
 /* ======= About style ======= */
 .fredia-about-img img:hover {
     transform: scale(0.95);
@@ -941,6 +955,20 @@ td {
 }
 
 /* ======= Team style ======= */
+
+.out-teams {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px 50px;
+    padding-top: 60px;
+}
+.our-teams__person {
+    max-width: 400px;
+}
 
 .team .titem .team-img {
     position: relative;
